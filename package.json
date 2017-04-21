@@ -1,0 +1,23 @@
+{
+  "name": "ssfer",
+  "version": "1.0.0",
+  "description": "Savez studenata FER-a website",
+  "main": "index.js",
+  "dependencies": {
+    "lightbox2": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KSET/ssfer.hr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KSET/ssfer.hr/issues"
+  },
+  "homepage": "https://github.com/KSET/ssfer.hr#readme"
+}
