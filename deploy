@@ -1,0 +1,21 @@
+set -e;
+
+GIT_REPO_LOCATION="~/ssfer-website"
+ssh $DEPLOY_USER@$DEPLOY_SERVER << HERE
+  echo ""
+  echo "---|> Pulling new code"
+  echo ""
+
+  cd $GIT_REPO_LOCATION
+  git pull
+
+  echo ""
+  echo "---|> Installing dependencies"
+  echo ""
+
+  npm install
+
+  echo ""
+  echo "---|> Done!"
+  echo ""
+HERE
