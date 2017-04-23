@@ -1,0 +1,15 @@
+machine:
+  java:
+    version: oraclejdk8
+dependencies:
+  pre:
+    - pip install html5validator
+    - npm install
+test:
+  override:
+    - html5validator --root .
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./deploy
