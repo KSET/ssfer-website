@@ -209,12 +209,3 @@ strong
 .clear{
 	clear:both;
 }
-
-.thumbnail {
-	display: inline-block;
-	height: 220px;
-}
-p {
-	text-align: justify;
-	text-justify: inter-word;
-}
