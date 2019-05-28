@@ -33,4 +33,4 @@ Website has automatic deploy on push to master.
 
 The KSET logo is under copyright by [SSFER](http://www.ssfer.hr/).
 
-Copyright © 2017 [SS FER]
+Copyright © 2019 [SS FER]
