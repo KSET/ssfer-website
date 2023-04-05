@@ -103,7 +103,7 @@ strong
 
 #menuIn li a
 {
-	color: orange;
+	color: #ffffff;
 	border-right: 1px solid #333; 
 	padding:8px 20px;
 }
@@ -111,7 +111,7 @@ strong
 
 #menuIn li a:hover
 {
-	color: #FB5;
+	color: #ffffff;
 	background-color: #000;
 }
 
@@ -177,7 +177,7 @@ strong
 	margin-bottom: 0px;
 	margin-left: 170px;
 	padding: 0px;
-	color: #FFB938;
+	color: #ffffff;
 }
 
 
