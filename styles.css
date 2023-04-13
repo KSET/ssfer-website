@@ -1,3 +1,7 @@
+*
+{
+	font-family: Arial;
+}
 a:focus
 {
 -moz-outline-style: none;
@@ -15,7 +19,7 @@ body
 
 a 
 {
-  color: #333333;
+  color: #000000;
   font-weight: bold;
   text-decoration: none;
 }
@@ -59,12 +63,13 @@ strong
 
 #title
 {
-	height:60px;
+	height:80px;
   
 }
 
 #title .images{
 	float:left;
+	padding-top: 10px;
 }
 
 #menuOuter
@@ -103,7 +108,7 @@ strong
 
 #menuIn li a
 {
-	color: orange;
+	color: #ffffff;
 	border-right: 1px solid #333; 
 	padding:8px 20px;
 }
@@ -111,7 +116,7 @@ strong
 
 #menuIn li a:hover
 {
-	color: #FB5;
+	color: #ffffff;
 	background-color: #000;
 }
 
@@ -165,19 +170,19 @@ strong
 
 .naslov{
 	background: url(images/img_title.png) right no-repeat;
-	font-family:System, sans-serif ;
+	font-family: Arial ;
 	text-align: left;
 	float:right;
 	width: 600px;
-	height: 60px;
+	height: 100px;
 }
 
 .naslov h1{
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 0px;
 	margin-left: 170px;
 	padding: 0px;
-	color: #FFB938;
+	color: #ffffff;
 }
 
 
@@ -217,4 +222,5 @@ strong
 p {
 	text-align: justify;
 	text-justify: inter-word;
+	font-size: 10pt;
 }
