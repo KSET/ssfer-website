@@ -1,6 +1,6 @@
 *
 {
-	font-family: Arial;
+	font-family: "Inter", sans-serif;
 }
 a:focus
 {
@@ -11,7 +11,10 @@ body
 {
   background: #eeeeee;
   color: #000000;
-  font-family: verdana,arial,helvetica,sans-serif;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
   font-size: 13px;
   line-height: 16px;
   margin-top: 20px;
@@ -170,7 +173,7 @@ strong
 
 .naslov{
 	background: url(images/img_title.png) right no-repeat;
-	font-family: Arial ;
+	font-family: "Inter", sans-serif;
 	text-align: left;
 	float:right;
 	width: 600px;
