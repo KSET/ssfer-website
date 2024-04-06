@@ -1,0 +1,8 @@
+stages:
+    - deploy
+
+build:
+    stage: deploy
+    script:
+        - mkdir -p ~/.ssh/ && echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa
+        - ssh root@${DEPLOY_SERVER} 'cd SS-FER-WEB && ./deploy.sh'
