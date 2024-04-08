@@ -5,16 +5,6 @@ build:
     stage: deploy
     script:
         - mkdir -p ~/.ssh/ && echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa
-<<<<<<< HEAD
-<<<<<<< HEAD
         - ssh -o "StrictHostKeyChecking no" root@${DEPLOY_SERVER} 'cd SS-FER-WEB && ./deploy.sh'
     only:
         - master
-=======
-        - ssh root@${DEPLOY_SERVER} 'cd SS-FER-WEB && ./deploy.sh'
->>>>>>> 74ac04e (Add new file)
-=======
-        - ssh -o "StrictHostKeyChecking no" root@${DEPLOY_SERVER} 'cd SS-FER-WEB && ./deploy.sh'
-    only:
-        - master
->>>>>>> 7ef5fa9 (Update .gitlab-ci.yaml)
