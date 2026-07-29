@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY documents ./documents
 COPY en ./en
-COPY images ./en
+COPY images ./images
 
 COPY circle.yml .
 COPY *.html .
